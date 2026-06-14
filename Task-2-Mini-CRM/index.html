@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini CRM - Future Interns Task 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <div id="login-container" class="container">
+        <h2>Admin Login - Mini CRM</h2>
+        <input type="email" id="email" placeholder="Admin Email" value="admin@crm.com">
+        <input type="password" id="password" placeholder="Password" value="admin123">
+        <button id="login-btn">Login</button>
+        <p class="demo">Demo Login: admin@crm.com / admin123</p>
+    </div>
+
+    <div id="dashboard" class="container hidden">
+        <div class="header">
+            <h1>Client Lead Management System</h1>
+            <button id="logout-btn">Logout</button>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">Total Leads: <span id="total-leads">0</span></div>
+            <div class="stat-card">New: <span id="new-leads">0</span></div>
+            <div class="stat-card">Contacted: <span id="contacted-leads">0</span></div>
+            <div class="stat-card">Converted: <span id="converted-leads">0</span></div>
+        </div>
+
+        <div class="add-lead">
+            <h3>Add New Lead</h3>
+            <input type="text" id="lead-name" placeholder="Client Name">
+            <input type="email" id="lead-email" placeholder="Email">
+            <input type="text" id="lead-source" placeholder="Source - Website/Form/Referral">
+            <button id="add-lead-btn">Add Lead</button>
+        </div>
+
+        <div class="leads-table">
+            <h3>All Leads</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Source</th>
+                        <th>Status</th>
+                        <th>Notes/Follow-up</th>
+                        <th>Date Added</th>
+                    </tr>
+                </thead>
+                <tbody id="leads-body"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
