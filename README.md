@@ -23,6 +23,29 @@ A simple Customer Relationship Management tool to add, view, and manage customer
 - View customer list
 - Delete customer data
 - Responsive design
+- ## Task 3: Sri Sai Tiffin Center Business Website
+A real local business website built for Sri Sai Tiffin Center, Kurnool. Solves the problem of zero online presence for small tiffin shops.
+
+**Folder:** `Task-3-Business-Website/`  
+**Live Demo:** [View Live](https://sriramgoud889-creator.github.io/FUTURE_FS_01/Task-3-Business-Website/)
+
+**Problem Solved:** Local customers cannot check menu, rates, or timings without calling the shop.
+
+**Features:**
+- Digital Menu: Idly ₹30, Dosa ₹40, Tea ₹10, Meals ₹80
+- One-click WhatsApp Order button: 8897907797
+- Shop Timings: Morning 7-11 AM, Evening 5-9 PM
+- Owner Details: Mahesh Goud
+- Address with Google Maps: Sunkesala Road, Mungalapadu, Kurnool
+- Mobile responsive design
+
+**Tech Stack:** HTML5, CSS3, JavaScript
+
+**Business Impact:** 
+- 24/7 online visibility for local shop
+- Reduces phone inquiries for basic info
+- Professional image vs competitors
+- Direct WhatsApp orders increase sales
 
 ---
 **Name:** Sriram Goud  
