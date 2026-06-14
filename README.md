@@ -13,7 +13,16 @@ Responsive portfolio built using HTML, CSS & JavaScript.
 - Responsive design
 
 ## Task 2: Mini CRM Tool
-Coming soon...
+A simple Customer Relationship Management tool to add, view, and manage customer data.
+
+**Folder:** `Task-2-Mini-CRM/`  
+**Live Demo:** Will add after deployment
+
+**Features:**
+- Add new customer details
+- View customer list
+- Delete customer data
+- Responsive design
 
 ---
 **Name:** Sriram Goud  
